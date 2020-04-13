@@ -5,7 +5,7 @@ public class Calculadora {
             Integer a;    
             Integer b;          
             Integer opcion;
-            Integer resultado;
+            Integer resultado=0;
            
             Scanner teclado = new Scanner(System.in);
             do{
@@ -17,11 +17,10 @@ public class Calculadora {
             a = teclado.nextInt();
            
             System.out.println("Ingrese el segundo numero");  
-            b = teclado.nextInt();
-           
-            Swich(opcion)
-            {   case 1:resultado = a + b; 
-                break:    
+            b = teclado.nextInt(); 
+            switch (opcion)
+            {   case 1:resultado = a + b;
+                break;   
                 case 2:resultado = a - b;
                 break;
                 case 3: resultado = a * b;
