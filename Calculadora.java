@@ -9,11 +9,8 @@ public class Calculadora {
            
             Scanner teclado = new Scanner(System.in);
             do{
-<<<<<<< HEAD
                 System.out.println("Ingrese su operación \n 3 para sumar \n 2 para restar \n 1 para multiplicar \n 4 para dividir");  
-=======
-                System.out.println("Ingrese su operación \n 1 para sumar \n 2 para restar \n 3 para multiplicar \n 4 para dividir");  
->>>>>>> parent of e17f3c4... Resubido archivo original
+
             opcion = teclado.nextInt();       
             }
             while (opcion < 1 && opcion > 4);
@@ -23,19 +20,12 @@ public class Calculadora {
             System.out.println("Ingrese el segundo numero");  
             b = teclado.nextInt(); 
             switch (opcion)
-<<<<<<< HEAD
             {   case 1:resultado = a * b;
+
                 break;   
                 case 2:resultado = a - b;
                 break;
                 case 3: resultado = a + b;
-=======
-            {   case 1:resultado = a + b;
-                break;   
-                case 2:resultado = a - b;
-                break;
-                case 3: resultado = a * b;
->>>>>>> parent of e17f3c4... Resubido archivo original
                 break;      
                 case 4: resultado = a / b;
                 break;
