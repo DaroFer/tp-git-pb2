@@ -1,0 +1,12 @@
+5- * Cuando se intento hacer el segundo push fue rechazado.
+*Hay que usar el comando fetch para traer la info del repositorio remoto y este se ubicara en una rama oculta del repositorio local.
+* La estrategia es crear primero el fetch para traer lo que haya en el repositorio remoto y luego un merge para unir las dos partes. Despues de esto si realizar el push a master.
+
+6- La accion que realizo el parametro (-b) es crear una rama llamada develop y quedarse dentro de ella. 
+
+7- realizada
+
+8- Realizada
+
+9- * Se originaban conflictos entre el master y el branch.
+*Merge con estrategia recursiva.
