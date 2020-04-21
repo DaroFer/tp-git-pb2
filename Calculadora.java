@@ -9,8 +9,7 @@ public class Calculadora {
            
             Scanner teclado = new Scanner(System.in);
             do{
-                System.out.println("Ingrese su operación \n 3 para sumar \n 2 para restar \n 1 para multiplicar \n 4 para dividir");  
-
+            System.out.println("Ingrese su operación \n 3 para sumar \n 2 para restar \n 1 para multiplicar \n 4 para dividir");  
             opcion = teclado.nextInt();       
             }
             while (opcion < 1 && opcion > 4);
